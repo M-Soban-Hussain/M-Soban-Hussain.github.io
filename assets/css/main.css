@@ -4685,3 +4685,19 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
+.transparent-text {
+  font-size: 3rem; /* Adjust as needed */
+  font-weight: bold; /* Optional */
+  color: transparent;
+  background: url('your-background-image.jpg'); /* Replace with your background image */
+  background-clip: text;
+  -webkit-background-clip: text; /* For WebKit browsers */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.transparent-text:hover {
+  color: rgba(0, 0, 0, 0); /* Maintain transparency on hover */
+  background: url('your-background-image.jpg'); /* Keep the same background image */
+  background-clip: text;
+  -webkit-background-clip: text; /* For WebKit browsers */
+}
