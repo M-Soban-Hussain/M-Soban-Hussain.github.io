@@ -4685,20 +4685,3 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
-
-	}
-.transparent-text {
-	font-size: 48px; /* Adjust as needed */
-	font-weight: bold;
-	background: inherit;
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent !important; /* Forces text to be transparent */
-	text-align: center; /* Optional, adjust based on design */
-	margin-top: 50px; /* Optional, adjust based on design */
-	transition: none !important; /* Prevent any color change on hover */
-}
-
-.transparent-text:hover {
-	-webkit-text-fill-color: transparent !important; /* Ensure it stays transparent on hover */
-}
