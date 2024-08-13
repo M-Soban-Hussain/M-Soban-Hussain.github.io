@@ -112,6 +112,17 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+	/* Transparent Text Style */
+	.transparent-text {
+		font-size: 48px;
+		font-weight: bold;
+		color: transparent;
+		background: inherit;
+		-webkit-background-clip: text;
+		background-clip: text;
+		text-align: center;
+		margin-top: 50px;
+	}
 
 /* Type */
 
