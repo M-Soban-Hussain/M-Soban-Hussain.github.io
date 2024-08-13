@@ -4688,15 +4688,14 @@ input, select, textarea {
 .transparent-text {
   font-size: 3rem; /* Adjust as needed */
   font-weight: bold; /* Optional */
-  color: transparent; /* Text color initially transparent */
+  color: transparent; /* Initially transparent text */
   background: url('https://github.com/M-Soban-Hussain/SOBAN/blob/main/images/bg.jpg?raw=true'); /* Background image URL */
   background-clip: text;
   -webkit-background-clip: text; /* For WebKit browsers */
   background-size: cover; /* Ensure the image covers the text */
-  transition: background-size 0.3s ease; /* Optional smooth transition for resizing */
+  transition: background-size 0.3s ease; /* Optional smooth transition */
 }
 
 .transparent-text:hover {
-  /* No changes needed on hover */
-  background-size: cover; /* Keep the image covering the text */
+  background-size: cover; /* Keep the image covering the text on hover */
 }
