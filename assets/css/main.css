@@ -4689,7 +4689,7 @@ input, select, textarea {
   font-size: 3rem; /* Adjust as needed */
   font-weight: bold; /* Optional */
   color: transparent;
-  background: url('your-background-image.jpg'); /* Replace with your background image */
+  background: url('https://github.com/M-Soban-Hussain/SOBAN/blob/main/images/bg.jpg?raw=true'); /* Replace with your background image */
   background-clip: text;
   -webkit-background-clip: text; /* For WebKit browsers */
   transition: color 0.3s ease; /* Smooth transition effect */
