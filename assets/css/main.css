@@ -112,17 +112,21 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-	/* Transparent Text Style */
 	.transparent-text {
-		font-size: 48px;
-		font-weight: bold;
-		color: transparent;
-		background: inherit;
-		-webkit-background-clip: text;
-		background-clip: text;
-		text-align: center;
-		margin-top: 50px;
-	}
+	font-size: 48px; /* Adjust as needed */
+	font-weight: bold;
+	color: transparent !important; /* Ensure text is transparent */
+	background: inherit !important; /* Use the background of the parent element */
+	-webkit-background-clip: text;
+	background-clip: text;
+	text-align: center; /* Optional, adjust based on design */
+	margin-top: 50px; /* Optional, adjust based on design */
+	transition: none !important; /* Prevent color change on hover */
+}
+
+.transparent-text:hover {
+	color: transparent !important; /* Ensure it stays transparent on hover */
+}
 
 /* Type */
 
